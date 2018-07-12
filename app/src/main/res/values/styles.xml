@@ -1,0 +1,53 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.Fullscreen" parent="AppTheme">
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="colorControlNormal">@color/loginUnSelectedETLine</item>
+        <item name="colorControlActivated">@color/colorWhite</item>
+        <item name="colorControlHighlight">@color/colorWhite</item>
+    </style>
+
+
+    <!--MEMBER LOGIN-->
+    <style name="login_view_layout_et">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/v4dp</item>
+        <item name="android:textSize">@dimen/txtSize14</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textColorHint">@color/colorWhite</item>
+        <item name="android:fontFamily">@font/sf_pro_display_semibold</item>
+    </style>
+
+    <style name="login_view_layout_tv">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_margin">@dimen/v4dp</item>
+        <item name="android:textSize">@dimen/txtSize16</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="login_view_layout_btn">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/v50dp</item>
+        <item name="android:layout_marginTop">@dimen/v8dp</item>
+        <item name="android:padding">@dimen/v14dp</item>
+        <item name="android:textSize">@dimen/txtSize14</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+
+
+</resources>

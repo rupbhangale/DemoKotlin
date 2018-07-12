@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <dimen name="hamburger_drawer_width">280dp</dimen>
+
+    <dimen name="v0dp">0dp</dimen>
+    <dimen name="v0.5dp">0.5dp</dimen>
+
+    <dimen name="v2dp">2dp</dimen>
+    <dimen name="v3dp">3dp</dimen>
+    <dimen name="v4dp">4dp</dimen>
+    <dimen name="v5dp">5dp</dimen>
+    <dimen name="v6dp">6dp</dimen>
+    <dimen name="v7dp">7dp</dimen>
+    <dimen name="v8dp">8dp</dimen>
+    <dimen name="v9dp">9dp</dimen>
+    <dimen name="v10dp">10dp</dimen>
+    <dimen name="v11dp">11dp</dimen>
+    <dimen name="v12dp">12dp</dimen>
+    <dimen name="v13dp">13dp</dimen>
+    <dimen name="v14dp">14dp</dimen>
+    <dimen name="v15dp">15dp</dimen>
+    <dimen name="v16dp">16dp</dimen>
+    <dimen name="v17dp">17dp</dimen>
+    <dimen name="v18dp">18dp</dimen>
+    <dimen name="v20dp">20dp</dimen>
+    <dimen name="v22dp">22dp</dimen>
+    <dimen name="v23dp">23dp</dimen>
+    <dimen name="v24dp">24dp</dimen>
+    <dimen name="v26dp">26dp</dimen>
+    <dimen name="v28dp">28dp</dimen>
+    <dimen name="v32dp">32dp</dimen>
+    <dimen name="v36dp">36dp</dimen>
+    <dimen name="v40dp">40dp</dimen>
+    <dimen name="v45dp">45dp</dimen>
+    <dimen name="v46dp">46dp</dimen>
+    <dimen name="v47dp">47dp</dimen>
+    <dimen name="v48dp">48dp</dimen>
+    <dimen name="v50dp">50dp</dimen>
+    <dimen name="v64dp">64dp</dimen>
+    <dimen name="v72dp">72dp</dimen>
+    <dimen name="v120dp">120dp</dimen>
+    <dimen name="v160dp">160dp</dimen>
+
+    <dimen name="header_height">32dp</dimen>
+    <dimen name="header_height_big">48dp</dimen>
+
+    <dimen name="txtSize1">1sp</dimen>
+    <dimen name="txtSize2">2sp</dimen>
+    <dimen name="txtSize5">5sp</dimen>
+    <dimen name="txtSize6">6sp</dimen>
+    <dimen name="txtSize8">8sp</dimen>
+    <dimen name="txtSize10">10sp</dimen>
+    <dimen name="txtSize11">11sp</dimen>
+    <dimen name="txtSize12">12sp</dimen>
+    <dimen name="txtSize13">13sp</dimen>
+    <dimen name="txtSize14">14sp</dimen>
+    <dimen name="txtSize15">15sp</dimen>
+    <dimen name="txtSize16">16sp</dimen>
+    <dimen name="txtSize17">17sp</dimen>
+    <dimen name="txtSize19">19sp</dimen>
+    <dimen name="txtSize20">20sp</dimen>
+    <dimen name="txtSize22">22sp</dimen>
+    <dimen name="txtSize24">24sp</dimen>
+    <dimen name="txtSize26">26sp</dimen>
+    <dimen name="txtSize28">28sp</dimen>
+    <dimen name="txtSize30">30sp</dimen>
+    <dimen name="txtSize32">32sp</dimen>
+    <dimen name="txtSize34">34sp</dimen>
+
+
+
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="v1dp">1dp</dimen>
+
+
+    <dimen name="design_bottom_navigation_text_size" tools:override="true">12sp</dimen>
+    <dimen name="design_bottom_navigation_active_text_size" tools:override="true">12sp</dimen>
+
+    <dimen name="home_event_tile_width">185dp</dimen>
+    <dimen name="home_event_tile_height">215dp</dimen>
+    <dimen name="v80dp">80dp</dimen>
+
+
+</resources>

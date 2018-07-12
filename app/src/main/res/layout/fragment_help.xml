@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal|bottom"
+    android:orientation="vertical"
+    android:paddingRight="@dimen/v50dp"
+    android:paddingLeft="@dimen/v50dp"
+    android:background="@android:color/transparent"
+    tools:context="login.HelpFragment">
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_dac_logo"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            style="@style/login_view_layout_tv"
+            android:fontFamily="@font/knockout_htf28_juniorfeatherwt"
+            android:letterSpacing="0.14"
+            android:textAllCaps="true"
+            android:text="@string/tv_text_forget_password"/>
+
+        <TextView
+            style="@style/login_view_layout_tv"
+            android:fontFamily="@font/sf_pro_display_regular"
+            android:text="@string/tv_text_enter_email_address_hint"/>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/til_email_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@android:color/white"
+            android:layout_marginTop="@dimen/v8dp">
+
+            <EditText
+                android:id="@+id/et_email_id"
+                style="@style/login_view_layout_et"
+                android:textColorHint="@drawable/et_hint_unfocused"
+                android:inputType="textCapCharacters"
+                android:singleLine="true"
+                android:digits="@string/username_validation"
+                android:hint="@string/et_hint_member_number"
+                tools:text="M2500"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/btn_submit"
+            style="@style/login_view_layout_btn"
+            android:layout_marginBottom="@dimen/v20dp"
+            android:fontFamily="@font/knockout_htf33_juniorheviwt"
+            android:text="@string/btn_text_submit" />
+
+        <TextView
+            style="@style/login_view_layout_tv"
+            android:fontFamily="@font/knockout_htf28_juniorfeatherwt"
+            android:letterSpacing="0.14"
+            android:textAllCaps="true"
+            android:text="@string/tv_text_forget_member_number"/>
+
+        <TextView
+            android:id="@+id/tv_make_call"
+            style="@style/login_view_layout_tv"
+            android:fontFamily="@font/sf_pro_display_regular"
+            android:text="@string/tv_text_make_call"/>
+
+        <TextView
+            android:id="@+id/tv_return_to_login"
+            style="@style/login_view_layout_tv"
+            android:fontFamily="@font/sf_pro_display_regular"
+            android:textSize="@dimen/txtSize12"
+            android:padding="@dimen/v8dp"
+            android:text="@string/tv_text_return_to_login"/>
+    </LinearLayout>
+
+</LinearLayout>

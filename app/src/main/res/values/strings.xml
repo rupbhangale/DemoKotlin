@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">DACKotlin</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Login window-->
+    <string name="tv_text_help">HELP</string>
+    <string name="et_hint_member_number">Member number</string>
+    <string name="et_hint_password">Password</string>
+    <string name="btn_text_login">Login</string>
+    <string name="error_text_enter_member_number">Enter Member Number</string>
+    <string name="error_text_enter_password">Enter Password</string>
+    <string name="error_text_invalid_username_password">Please enter valid username and password</string>
+    <string name="error_text_invalid_user">Invalid user. Please try again with another user.</string>
+
+    <!--Help window-->
+    <string name="tv_text_forget_password">FORGOT YOUR PASSWORD</string>
+    <string name="tv_text_enter_email_address_hint">Enter your member number and we\'ll send you reset instructions</string>
+    <string name="et_hint_email_address">Email Address</string>
+    <string name="btn_text_submit">SUBMIT</string>
+    <string name="tv_text_forget_member_number">FORGOT YOUR MEMBER NUMBER?</string>
+    <string name="tv_text_make_call">Please call</string>
+    <string name="dac_contact_number">(313) 963-9200</string>
+    <string name="dial_number">3139639200</string>
+    <string name="tv_text_return_to_login">RETURN TO LOGIN</string>
+    <string name="alert_text_logout_title">Logout</string>
+    <string name="alert_text_logout_message">Are you sure you want to logout.</string>
+    <string name="alert_text_logout_positive_btn">Yes</string>
+    <string name="alert_text_logout_negative_btn">No</string>
+    <string name="username_validation">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789</string>
+
+
+    <!-- Bottom Navigation Bar Items -->
+    <string name="home">HOME</string>
+    <string name="events">EVENTS</string>
+    <string name="athletics">ATHLETICS</string>
+    <string name="dining">DINING</string>
+    <string name="directory">DIRECTORY</string>
+</resources>

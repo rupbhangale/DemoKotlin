@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_home"
+        android:enabled="true"
+        android:icon="@drawable/ic_home_bnb"
+        android:title="@string/home"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_events"
+        android:enabled="true"
+        android:icon="@drawable/ic_events_bnb"
+        android:title="@string/events"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_athletics"
+        android:enabled="true"
+        android:icon="@drawable/ic_athletics_bnb"
+        android:title="@string/athletics"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_dining"
+        android:enabled="true"
+        android:icon="@drawable/ic_dining_bnb"
+        android:title="@string/dining"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_directory"
+        android:enabled="true"
+        android:icon="@drawable/ic_directory_bnb"
+        android:title="@string/directory"
+        app:showAsAction="ifRoom" />
+
+
+</menu>
